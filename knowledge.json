@@ -1,0 +1,210 @@
+{
+  "version": 1,
+  "updated": "2026-11-12",
+  "source": "built-in defaults (generic patterns)",
+  "companyTypes": {
+    "bigtech": {
+      "label": "Big tech / global product company",
+      "brief": [
+        "Teams here are small and ownership-driven, and we expect people to make good decisions with incomplete information.",
+        "We use structured interviews, so I'll be looking for clear reasoning more than perfect answers.",
+        "Collaboration across teams matters a lot for us, and so does writing clearly."
+      ],
+      "rounds": [
+        {
+          "name": "Recruiter screen",
+          "mode": "screening"
+        },
+        {
+          "name": "Technical round 1",
+          "mode": "technical"
+        },
+        {
+          "name": "Technical round 2 (deep dive)",
+          "mode": "technical"
+        },
+        {
+          "name": "Design / case round",
+          "mode": "case"
+        },
+        {
+          "name": "Behavioral round",
+          "mode": "behavioral"
+        },
+        {
+          "name": "Hiring manager round",
+          "mode": "managerial"
+        },
+        {
+          "name": "HR round",
+          "mode": "hr"
+        }
+      ]
+    },
+    "services": {
+      "label": "IT services / consulting",
+      "brief": [
+        "Our projects are client-facing, so communication and adaptability are as important as skills.",
+        "We work in delivery teams with clear milestones and regular client reviews."
+      ],
+      "rounds": [
+        {
+          "name": "HR screening",
+          "mode": "screening"
+        },
+        {
+          "name": "Technical round",
+          "mode": "technical"
+        },
+        {
+          "name": "Managerial round",
+          "mode": "managerial"
+        },
+        {
+          "name": "HR round",
+          "mode": "hr"
+        }
+      ]
+    },
+    "startup": {
+      "label": "Startup",
+      "brief": [
+        "We're a small team, so everyone wears multiple hats and moves fast.",
+        "There's very little process here; we value people who take initiative and own outcomes."
+      ],
+      "rounds": [
+        {
+          "name": "Founder intro chat",
+          "mode": "screening"
+        },
+        {
+          "name": "Technical round",
+          "mode": "technical"
+        },
+        {
+          "name": "Culture & behavioral round",
+          "mode": "behavioral"
+        },
+        {
+          "name": "Founder / CEO round",
+          "mode": "ceo"
+        }
+      ]
+    },
+    "midproduct": {
+      "label": "Mid-size product company",
+      "brief": [
+        "We ship regularly and teams own their features from idea to production.",
+        "We follow a hybrid working model with regular code or design reviews."
+      ],
+      "rounds": [
+        {
+          "name": "HR screening",
+          "mode": "screening"
+        },
+        {
+          "name": "Technical round",
+          "mode": "technical"
+        },
+        {
+          "name": "Managerial round",
+          "mode": "managerial"
+        },
+        {
+          "name": "HR round",
+          "mode": "hr"
+        }
+      ]
+    },
+    "finance": {
+      "label": "Bank / finance / consulting firm",
+      "brief": [
+        "We value structured thinking, accuracy and professionalism with clients.",
+        "Compliance and risk awareness are part of everyday work here."
+      ],
+      "rounds": [
+        {
+          "name": "HR screening",
+          "mode": "screening"
+        },
+        {
+          "name": "Case round",
+          "mode": "case"
+        },
+        {
+          "name": "Behavioral round",
+          "mode": "behavioral"
+        },
+        {
+          "name": "Panel round",
+          "mode": "panel"
+        },
+        {
+          "name": "HR round",
+          "mode": "hr"
+        }
+      ]
+    },
+    "other": {
+      "label": "Other / not sure",
+      "brief": [
+        "We care about people who learn quickly and communicate clearly."
+      ],
+      "rounds": [
+        {
+          "name": "Screening",
+          "mode": "screening"
+        },
+        {
+          "name": "Technical round",
+          "mode": "technical"
+        },
+        {
+          "name": "Behavioral round",
+          "mode": "behavioral"
+        },
+        {
+          "name": "HR round",
+          "mode": "hr"
+        }
+      ]
+    }
+  },
+  "campusRounds": [
+    {
+      "name": "Campus screening",
+      "mode": "screening"
+    },
+    {
+      "name": "Technical round",
+      "mode": "technical"
+    },
+    {
+      "name": "HR round",
+      "mode": "hr"
+    }
+  ],
+  "seniorAdd": {
+    "senior": [
+      {
+        "name": "Panel / boardroom round",
+        "mode": "panel"
+      }
+    ],
+    "lead": [
+      {
+        "name": "Panel / boardroom round",
+        "mode": "panel"
+      },
+      {
+        "name": "CEO / founder round",
+        "mode": "ceo"
+      }
+    ]
+  },
+  "trends": [
+    "Structured behavioural questions (STAR) are widely used.",
+    "Recruiters increasingly ask how you use AI tools responsibly in your work.",
+    "Clear communication and ownership are weighted heavily, even in technical roles."
+  ]
+}

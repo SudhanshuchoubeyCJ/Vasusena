@@ -1,0 +1,4 @@
+{
+  "_help": "Add public https pages you have checked and trust (company career blogs, hiring-process guides, reputable HR/recruiting publications). Check each site's terms allow automated reading. Do NOT add Glassdoor or LinkedIn pages: their terms forbid scraping. Format: { \"name\": \"Site name\", \"url\": \"https://...\" }",
+  "sources": []
+}
